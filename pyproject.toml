@@ -11,8 +11,9 @@ loguru = "^0.6.0"
 solana = "^0.21.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^7.0.1"
 black = ""
+pytest = "^7.0.1"
+pyfiglet = ""
 
 [tool.black]
 --skip-string-normalization = "yes"

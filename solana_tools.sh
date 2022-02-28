@@ -12,7 +12,12 @@ fi
 
 export PATH="${PWD}/bin:$PATH"
 
+pyfiglet "Solana tools"
+printf "\033[01;30mstart_validator\033[0m to start Solana test validator\n"
+printf "\033[01;30mmake_bpf <dapp>\033[0m to build dapp\n"
+printf "\n"
+
 $SHELL --rcfile <(
   echo "PS1='\e[01;35m(Solana ${VERSION}):\e[m \e[01;34m\w\e[m\$ '"
   echo "alias make_bpf='V=1 make -C ./dapps '"
-  ) -i
+  echo "alias start_validator='solana-test-validator --ledger=.solana_ledger'") -i

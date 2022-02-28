@@ -1,4 +1,4 @@
 .bpf_build/
 .solana_tools/
-test-ledger/
+.solana_ledger/
 venv/
