@@ -124,7 +124,7 @@ unicode_backport = ["unicodedata2"]
 name = "click"
 version = "8.0.4"
 description = "Composable command line interface toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -560,7 +560,7 @@ dev = ["pytest (>=4.6.2)", "black (>=19.3b0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "26b0ba9d3cf6156304979836c38c47dfcc2f7f8dc556061bed5c7aca9b39a47e"
+content-hash = "d856816d4bd1fafc7b9b3af3f8095051f50d2f6daae6faa8d45f1a56a9c2f102"
 
 [metadata.files]
 anyio = [

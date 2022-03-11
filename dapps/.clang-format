@@ -1,0 +1,95 @@
+IncludeCategories:
+  - Regex: '^<[a-z]+>'
+    Priority: 1
+  - Regex: '^<boost\/.*'
+    Priority: 2
+  - Regex: '<.*'
+    Priority: 3
+
+BraceWrapping :
+  AfterClass            : true
+  AfterControlStatement : Never
+  AfterEnum             : false
+  AfterFunction         : true
+  AfterNamespace        : false
+  AfterObjCDeclaration  : false
+  AfterStruct           : true
+  AfterUnion            : false
+  BeforeCatch           : false
+  BeforeElse            : false
+  IndentBraces          : false
+
+AccessModifierOffset                           : -4
+AlignAfterOpenBracket                          : AlwaysBreak
+AlignConsecutiveAssignments                    : None
+AlignConsecutiveDeclarations                   : None
+AlignOperands                                  : true
+AlignTrailingComments                          : true
+AllowAllParametersOfDeclarationOnNextLine      : true
+AllowAllConstructorInitializersOnNextLine      : true
+AllowShortBlocksOnASingleLine                  : Never
+AllowShortCaseLabelsOnASingleLine              : false
+AllowShortFunctionsOnASingleLine               : None
+AllowShortIfStatementsOnASingleLine            : false
+AllowShortLambdasOnASingleLine                 : All
+AllowShortLoopsOnASingleLine                   : false
+AlwaysBreakAfterDefinitionReturnType           : None
+AlwaysBreakAfterReturnType                     : None
+AlwaysBreakBeforeMultilineStrings              : false
+AlwaysBreakTemplateDeclarations                : Yes
+BinPackArguments                               : false
+BinPackParameters                              : false
+BreakAfterJavaFieldAnnotations                 : false
+BreakBeforeBinaryOperators                     : None
+BreakBeforeBraces                              : Custom
+BreakBeforeTernaryOperators                    : true
+BreakConstructorInitializers                   : BeforeComma
+BreakInheritanceList                           : AfterColon
+BreakStringLiterals                            : true
+ColumnLimit                                    : 120
+# CommentPragmas                                 :
+ConstructorInitializerAllOnOneLineOrOnePerLine : true
+ConstructorInitializerIndentWidth              : 8
+ContinuationIndentWidth                        : 8
+Cpp11BracedListStyle                           : true
+DerivePointerAlignment                         : false
+DisableFormat                                  : false
+ExperimentalAutoDetectBinPacking               : false
+# ForEachMacros                                  :
+# IncludeIsMainRegex                             :
+IndentCaseLabels                               : true
+IndentWidth                                    : 4
+IndentWrappedFunctionNames                     : true
+JavaScriptQuotes                               : Leave
+JavaScriptWrapImports                          : true
+KeepEmptyLinesAtTheStartOfBlocks               : true
+MaxEmptyLinesToKeep                            : 1
+NamespaceIndentation                           : None
+ObjCBlockIndentWidth                           : 2
+ObjCSpaceAfterProperty                         : false
+ObjCSpaceBeforeProtocolList                    : false
+# PenaltyBreakBeforeFirstCallParameter           :
+# PenaltyBreakComment                            :
+# PenaltyBreakFirstLessLess                      :
+# PenaltyBreakString                             :
+# PenaltyExcessCharacter                         :
+PenaltyReturnTypeOnItsOwnLine                  : 9999
+PointerAlignment                               : Left
+ReflowComments                                 : true
+SortIncludes                                   : CaseInsensitive
+SpaceAfterCStyleCast                           : true
+SpaceAfterTemplateKeyword                      : true
+SpaceBeforeAssignmentOperators                 : true
+SpaceBeforeParens                              : ControlStatements
+SpaceInEmptyParentheses                        : false
+SpacesBeforeTrailingComments                   : 2
+SpacesInAngles                                 : false
+SpacesInCStyleCastParentheses                  : false
+SpacesInContainerLiterals                      : false
+SpacesInParentheses                            : false
+SpacesInSquareBrackets                         : false
+Standard                                       : c++17
+TabWidth                                       : 8
+UseTab                                         : Never
+
+# vim:ft=yaml

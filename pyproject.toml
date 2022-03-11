@@ -5,6 +5,7 @@ description = ""
 authors = ["Lukasz Laszko <lukasz@fairtide.co>"]
 
 [tool.poetry.dependencies]
+click = "^8.0.4"
 python = "^3.9"
 python-box = "^5.4.1"
 loguru = "^0.6.0"
