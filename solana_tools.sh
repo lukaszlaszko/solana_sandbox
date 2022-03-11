@@ -15,10 +15,10 @@ fi
 export PATH="${PWD}/.solana_tools/bin:$PATH"
 
 pyfiglet "Solana tools"
-printf "\033[01;30mstart_validator\033[0m to start Solana test validator\n"
-printf "\033[01;30mmake_bpf <dapp>\033[0m to build dapp\n"
-printf "\033[01;reformat\033[0m to reformat C/C++ files\n"
-printf "\n"
+echo "start_validator to start Solana test validator"
+echo "make_bpf <dapp> to build dapp"
+echo "reformat to reformat C/C++ files"
+echo ""
 
 $SHELL --rcfile <(
   echo "PS1='\e[01;35m(Solana ${VERSION}):\e[m \e[01;34m\w\e[m\$ '"

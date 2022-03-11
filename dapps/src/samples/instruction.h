@@ -23,8 +23,8 @@ private:
     enum Code : uint8_t {
         NOOP = 0,
         MINT = 1,
-        DEPOSIT = 2,
-        WITHDRAW = 3
+//        DEPOSIT = 2,
+//        WITHDRAW = 3
     };
 
     struct MintData
